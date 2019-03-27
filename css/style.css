@@ -1,0 +1,100 @@
+
+header a {
+	text-decoration: none;
+	font-size: 0.7em;
+	color: white;
+	font-weight: bold;
+}
+.row_menu{
+	background-color: #6E6E6E;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.text_banner, .text_content {
+	margin-top: 50px;
+	text-align: center;
+}
+
+hr {border-width: 2px;}
+
+img {
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.content_banner, .content_tilte, .footer_title {
+		font-size: 32px;
+		font-weight: bold;
+}
+.footer_content {
+	padding-top: 50px;
+}
+footer a {
+		text-decoration: underline;
+	}
+.text_gioithieu {
+	text-align: justify;
+}	
+
+@media only screen and (min-width: 768px) {
+	.brand, .signup {
+		text-align: right;
+	}
+	.browse, .help {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.duong_ke {display: none;}
+
+	header a {
+		color: black;
+	}
+	.row_menu {
+		background-color: unset;
+		text-align: center;
+	}
+	.row_banner  {
+		position: relative;
+		background-image: url("../images/banner.jpg");
+  		background-size: cover;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		height: 300px;
+	}
+	.text_banner {
+		position: absolute;
+		padding-left: 60px;
+		color: yellow;
+	}
+	.row_content {
+		background-color: #E6E6E6;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 20px;
+	}
+	.text_content {
+		margin-top: 0px;
+	}
+	.row_footer {
+		background-color: #F2F2F2;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.content_banner {
+		font-size: 36px;
+		font-weight: bold;
+	}
+	.content_tilte {
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.footer_title {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.footer_content {
+	padding-top: 20px;
+	}
+}
